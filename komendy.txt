@@ -1,0 +1,11 @@
+git add -A   (zapisywanie zmian)
+git commit -m "" (nazywanie zmian)
+git push -u origin master (wysy³anie do repozytorium na bitbucket z po³¹czonego folderu)
+git clone https://github.com/AgathaLucy/onto_ksiegowosc.git
+git pull (synchronizacja repozytorium z lokalnego z bitbucket)
+
+
+
+http://owl.cs.manchester.ac.uk/tools/list-of-reasoners/  -- lista reasonerów 
+
+	
