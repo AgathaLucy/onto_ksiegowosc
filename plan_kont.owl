@@ -1,0 +1,863 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#"
+     xml:base="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#jestRozliczanePrzez -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#jestRozliczanePrzez">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#rozliczaFinansowanie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#rozliczaFinansowanie -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#rozliczaFinansowanie"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#dokument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#dokument"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisDotyczacyKierunkuFilozofia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisDotyczacyKierunkuFilozofia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWydzialuFilozofii"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisDotyczacyKierunkuKognitywistyka"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisDotyczacyKierunkuKognitywistyka -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisDotyczacyKierunkuKognitywistyka">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWydzialuFilozofii"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisDotyczacyKierunkuTeologia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisDotyczacyKierunkuTeologia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWydzialuTeologii"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisKsiegowy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisKsiegowy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie011 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie011">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu0"/>
+        <rdfs:comment xml:lang="pl">środki trwałe</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie012 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie012">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu0"/>
+        <rdfs:comment xml:lang="pl">wyposażenie w użytkowaniu</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie013 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie013">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu0"/>
+        <rdfs:comment xml:lang="pl">zbiory biblioteczne</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie014 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie014">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu0"/>
+        <rdfs:comment xml:lang="pl">zbiory muzealne</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie020 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie020">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu0"/>
+        <rdfs:comment xml:lang="pl">wartości niematerialne i prawne</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie071 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie071">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu0"/>
+        <rdfs:comment xml:lang="pl">umorzenie środków trwałych</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie072 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie072">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu0"/>
+        <rdfs:comment xml:lang="pl">umorzenie wyposażenia</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie073 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie073">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu0"/>
+        <rdfs:comment xml:lang="pl">umorzenie zbiorów bibliotecznych</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie075 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie075">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu0"/>
+        <rdfs:comment xml:lang="pl">umorzenie wartości niematerialnych i prawnych</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie131 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie131">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu1"/>
+        <rdfs:comment xml:lang="pl">środki pieniężne w banku</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie211 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie211">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu2"/>
+        <rdfs:comment xml:lang="pl">zobowiązania wobec kontrahentów</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie212 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie212">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu2"/>
+        <rdfs:comment xml:lang="pl">należności od kontrahentów</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie311 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie311">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu3"/>
+        <rdfs:comment xml:lang="pl">materiały</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie330 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie330">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu3"/>
+        <rdfs:comment xml:lang="pl">towary handlowe</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie400 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie400">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespoluInnyNiz490"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie401"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie402"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie403"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie404"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie405"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie406"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie409"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie411"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie412"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie413"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie490"/>
+        <rdfs:comment xml:lang="pl">amortyzacja majątku trwałego</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie401 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie401">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespoluInnyNiz490"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie402"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie403"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie404"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie405"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie406"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie409"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie411"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie412"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie413"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie490"/>
+        <rdfs:comment xml:lang="pl">zużycie materiałów</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie402 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie402">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespoluInnyNiz490"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie403"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie404"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie405"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie406"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie409"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie411"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie412"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie413"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie490"/>
+        <rdfs:comment xml:lang="pl">zużycie energii</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie403 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie403">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespoluInnyNiz490"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie404"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie405"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie406"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie409"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie411"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie412"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie413"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie490"/>
+        <rdfs:comment xml:lang="pl">usługi obce</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie404 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie404">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespoluInnyNiz490"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie405"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie406"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie409"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie411"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie412"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie413"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie490"/>
+        <rdfs:comment xml:lang="pl">podatki i opłaty</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie405 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie405">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespoluInnyNiz490"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie406"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie409"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie411"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie412"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie413"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie490"/>
+        <rdfs:comment xml:lang="pl">wynagrodzenia</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie406 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie406">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespoluInnyNiz490"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie409"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie411"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie412"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie413"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie490"/>
+        <rdfs:comment xml:lang="pl">ubezpieczenia społeczne i inne świadczenia</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie409 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie409">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespoluInnyNiz490"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie411"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie412"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie413"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie490"/>
+        <rdfs:comment xml:lang="pl">pozostałe koszty rodzajowe</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie411 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie411">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespoluInnyNiz490"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie412"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie413"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie490"/>
+        <rdfs:comment xml:lang="pl">podróże służbowe</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie412 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie412">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespoluInnyNiz490"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie413"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie490"/>
+        <rdfs:comment xml:lang="pl">stypendia dla studentów</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie413 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie413">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespoluInnyNiz490"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie490"/>
+        <rdfs:comment xml:lang="pl">aparatura naukowo-badawcza, inne urządzenia i oprogramowanie</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie490 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie490">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu4"/>
+        <rdfs:comment xml:lang="pl">rozliczenie kosztów rodzajowych</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie500 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie500">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">działalność dydaktyczna - wynagrodzenia do rozliczenia</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie501 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie501">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie502"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie503"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie505"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie506"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie507"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie515"/>
+        <rdfs:comment xml:lang="pl">działalność dydaktyczna - studia stacjonarne</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie502 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie502">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie503"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie505"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie506"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie507"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie515"/>
+        <rdfs:comment xml:lang="pl">działalność dydaktyczna - studia niestacjonarne</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie503 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie503">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie505"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie506"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie507"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie515"/>
+        <rdfs:comment xml:lang="pl">działalność dydaktyczna - pozostałe formy kształcenia</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie504 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie504">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">organizacje studenckie</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie505 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie505">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">działalność badawcza - statutowa</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie506 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie506">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">działalność badawcza - granty i projekty</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie507 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie507">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">działalność badawcza - usługi badawcze</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie510 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie510">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">wydziały uniwersyteckie</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie511 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie511">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">Biblioteka Uniwersytecka</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie512 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie512">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">jednostki usługowe działalności dydaktycznej</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie513 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie513">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">jednostki pomocnicze działalności dydaktycznej</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie514 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie514">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">jednostki wspierające działalność statutową</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie515 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie515">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">jednostki działalności badawczej</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie522 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie522">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">działalność wydawnicza</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie531 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie531">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">utrzymanie obiektów w Lublinie</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie532 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie532">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">obsługa i administracja obiektami w Lublinie</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie534 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie534">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">działalnośc remontowa</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie550 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie550">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">koszty ogólnouniwersyteckie - jednostki i zadania</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie551 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie551">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <rdfs:comment xml:lang="pl">koszty ogólnouniwersyteckie - utrzymanie infrastruktury</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie641 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie641">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu6"/>
+        <rdfs:comment xml:lang="pl">rozliczenia międzyokresowe kosztów czynne</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie643 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie643">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu6"/>
+        <rdfs:comment xml:lang="pl">rozliczenia międzyokresowe kosztów bierne</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie700 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie700">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu7"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie701"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie702"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie703"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie705"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie706"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie707"/>
+        <rdfs:comment xml:lang="pl">przychody działaności dydaktycznej Uniwersytetu</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie701 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie701">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu7"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie702"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie703"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie705"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie706"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie707"/>
+        <rdfs:comment xml:lang="pl">przychody działalności dydaktycznej - studia stacjonarne</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie702 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie702">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu7"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie703"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie705"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie706"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie707"/>
+        <rdfs:comment xml:lang="pl">przychody działalności dydaktycznej - studia niestacjonarne</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie703 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie703">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu7"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie705"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie706"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie707"/>
+        <rdfs:comment xml:lang="pl">przychody działalności dydaktycznej - studia podyplomowe</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie705 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie705">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu7"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie706"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie707"/>
+        <rdfs:comment xml:lang="pl">przychody działalności badawczej - działalność statutowa</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie706 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie706">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu7"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie707"/>
+        <rdfs:comment xml:lang="pl">przychody działalności badawczej - granty</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie707 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie707">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu7"/>
+        <rdfs:comment xml:lang="pl">przychody działalności badawczej - usługi badawcze</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie840 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie840">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu8"/>
+        <rdfs:comment xml:lang="pl">rozliczenia międzyokresowe przychodów - subwencja</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie846 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie846">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu8"/>
+        <rdfs:comment xml:lang="pl">rozliczenia międzyokresowe przychodów - granty</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie847 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncie847">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu8"/>
+        <rdfs:comment xml:lang="pl">rozliczenia międzyokresowe przychodów - usługi badawcze</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieBilansowym -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieBilansowym">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisKsiegowy"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWynikowym"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWydzialuFilozofii -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWydzialuFilozofii">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWydzialuTeologii"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWydzialuTeologii -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWydzialuTeologii">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWynikowym -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWynikowym">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisKsiegowy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisPoStronieMa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisPoStronieMa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisKsiegowy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#rozliczaFinansowanie"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisPoStronieWinien"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisPoStronieWinien -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisPoStronieWinien">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisKsiegowy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#jestRozliczanePrzez"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisPoStronieMa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieBilansowym"/>
+        <rdfs:comment xml:lang="pl">aktywa trwałe</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieBilansowym"/>
+        <rdfs:comment xml:lang="pl">środki pieniężne</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieBilansowym"/>
+        <rdfs:comment xml:lang="pl">rozrachunki</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieBilansowym"/>
+        <rdfs:comment xml:lang="pl">materiały i towary</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWynikowym"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWynikowym"/>
+        <rdfs:comment xml:lang="pl">koszty wg miejsc poniesienia - układ kalkulacyjny</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieBilansowym"/>
+        <rdfs:comment xml:lang="pl">produkty i rozliczenia międzyokresowe</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWynikowym"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieBilansowym"/>
+        <rdfs:comment xml:lang="pl">fundusze własne, rezerwy, fundusze specjalne i wynik finansowy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespoluInnyNiz490 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespoluInnyNiz490">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu4"/>
+        <rdfs:comment xml:lang="pl">koszty rodzajowe</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
