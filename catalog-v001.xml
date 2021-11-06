@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl" uri="https://raw.githubusercontent.com/information-artifact-ontology/IAO/v2020-12-09/iao.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl" uri="https://raw.githubusercontent.com/BFO-ontology/BFO/v2019-08-26/bfo_classes_only.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1636197746435" name="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15" uri="plan_kont.owl"/>
+    </group>
+</catalog>

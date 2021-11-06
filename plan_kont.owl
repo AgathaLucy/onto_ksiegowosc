@@ -1,12 +1,21 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#"
      xml:base="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15"/>
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl"/>
+    </owl:Ontology>
     
 
 
