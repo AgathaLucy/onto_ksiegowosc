@@ -59,7 +59,34 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl001">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl011"/>
+        <obo:IAO_0000115 xml:lang="pl">dokument finansowy zawierający informację, o wartości transakcji, którą to wartość można zapisać na wybranym koncie księgowym</obo:IAO_0000115>
         <rdfs:label xml:lang="pl">dokument księgowy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl0016 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl0016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="pl">działanie jednostki gospodarczej w ramach prowadzonej działalności</obo:IAO_0000115>
+        <rdfs:label xml:lang="pl">zdarzenie gospodarcze</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl0017 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl0017">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl0016"/>
+        <obo:IAO_0000112 xml:lang="pl">do zdarzeń innych należą:
+- podpisanie umowy z pracownikiem
+- podpisanie umowy ze zleceniobiorcą
+- wysłanie zamówienia do kontrahenta
+- wystawienie zlecenia odbycia podróży służbowej (dekleacja)
+- zebranie danych o zakupionym środku trwaym w rejestrze</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="pl">zdarzenie gospodarcze, które można wyrazić w czasie ale nie podlega zapisowi w księgach rachunkowych</obo:IAO_0000115>
+        <rdfs:label xml:lang="pl">zdarzenie inne</rdfs:label>
     </owl:Class>
     
 
@@ -68,7 +95,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl002">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl011"/>
-        <rdfs:label xml:lang="pl">dokument inny</rdfs:label>
+        <obo:IAO_0000115 xml:lang="pl">dokument finansowy zawierający informację , której nie zapisuje się na koncie księgowym; a wybrana z dokumentu informacja jest  podstawą do utworzenia dokumentu księgowego</obo:IAO_0000115>
+        <rdfs:label xml:lang="pl">inny dokument finansowy</rdfs:label>
     </owl:Class>
     
 
@@ -77,6 +105,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl003">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl001"/>
+        <obo:IAO_0000115 xml:lang="pl">dokument księgowy zawierający informację o wartości umowy o pracę wybranej osoby z przysługującymi obciążeniami prawno-podatkowymi</obo:IAO_0000115>
         <rdfs:label xml:lang="pl">lista płac</rdfs:label>
     </owl:Class>
     
@@ -86,6 +115,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl004">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl001"/>
+        <obo:IAO_0000115 xml:lang="pl">dokument księgowy zawierający informację o wartości umowy zlecenia wybranej osoby z przysługującymi obciążeniami prawno-podatkowymi</obo:IAO_0000115>
         <rdfs:label xml:lang="pl">rachunek do umowy</rdfs:label>
     </owl:Class>
     
@@ -95,6 +125,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl005">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl001"/>
+        <obo:IAO_0000115 xml:lang="pl">dokument księgowy sporządzany w sytuacji gdy nie ma inneo dokumentu księgowego a trzeba zapisać informację na koncie księgowym</obo:IAO_0000115>
         <rdfs:label xml:lang="pl">polecenie księgowania</rdfs:label>
     </owl:Class>
     
@@ -104,6 +135,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl006">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl001"/>
+        <obo:IAO_0000115 xml:lang="pl">dokument księgowy zawierający informację o wartościach transakcji wpłat i wypłat w kasie</obo:IAO_0000115>
         <rdfs:label xml:lang="pl">raport kasowy</rdfs:label>
     </owl:Class>
     
@@ -113,6 +145,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl007">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl001"/>
+        <obo:IAO_0000115 xml:lang="pl">dokument księgowy zawierający informację o wartościach transakcji wpłat i wypłat w banku</obo:IAO_0000115>
         <rdfs:label xml:lang="pl">wyciąg bankowy</rdfs:label>
     </owl:Class>
     
@@ -122,6 +155,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl008">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl001"/>
+        <obo:IAO_0000115 xml:lang="pl">dokument księgowy zawierający informację o wartości sprzedaży lub zakupu, który zawiera elementy:</obo:IAO_0000115>
         <rdfs:label xml:lang="pl">faktura</rdfs:label>
     </owl:Class>
     
@@ -131,6 +165,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl009">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl002"/>
+        <obo:IAO_0000115>dokument inny finansowy zawierający informację o zakupionych środkach trwaych takie jak nazwa, klasyfikacja do okreslonej grupy, wartość, stawka odpisu umorzeniowego, będący podstawą do utworzenia dokumentu księowego do naliczania amortyzacji</obo:IAO_0000115>
         <rdfs:label xml:lang="pl">rejestr środków trwałych</rdfs:label>
     </owl:Class>
     
@@ -140,6 +175,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl010">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl002"/>
+        <obo:IAO_0000115>dokument inny finansowy zawierający informację o osobie, której zlecono wykonanie określonej czynności na przykład przeprowadzenie wykładu oraz wynarodzeniu za tę czynność, będący podstawą do sporządzenia dokumentu księgowego rachunek do umowy</obo:IAO_0000115>
         <rdfs:label xml:lang="pl">umowa zlecenia</rdfs:label>
     </owl:Class>
     
@@ -149,7 +185,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
-        <rdfs:label xml:lang="pl">dokumenty finansowe</rdfs:label>
+        <obo:IAO_0000115 xml:lang="pl">dokument z dziedziny finansów jednostki organizacyjnej</obo:IAO_0000115>
+        <rdfs:label xml:lang="pl">dokument finansowy</rdfs:label>
     </owl:Class>
     
 
@@ -158,6 +195,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl012">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl001"/>
+        <obo:IAO_0000115 xml:lang="pl">dokument księgowy zawierający informację o wartości zakupu, dla którego nie wystawiono faktury</obo:IAO_0000115>
         <rdfs:label xml:lang="pl">pokwitowanie</rdfs:label>
     </owl:Class>
     
@@ -167,7 +205,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl013">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl001"/>
-        <rdfs:label xml:lang="pl">delegacje</rdfs:label>
+        <obo:IAO_0000115 xml:lang="pl">dokument ksiegowy zawierający informację o wartości należności przysługujacej osobie za czas podróży służbowej</obo:IAO_0000115>
+        <rdfs:label xml:lang="pl">rozliczenie delegacji</rdfs:label>
     </owl:Class>
     
 
@@ -175,8 +214,39 @@
     <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl014 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdfs:label xml:lang="pl">transakcja</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl0016"/>
+        <obo:IAO_0000112 xml:lang="pl">do operacji gospodarczych należą:
+- zakupy materiałów, usług potwierdzone dokumentami
+- sprzedaż potwierdzona dokumentem
+- wpłata i wypłata w kasie
+- wpłaty i wypłaty w banku
+- zestawienie składników wyngrodzeń w liście płac i rachunkach
+- zestawienie należności pracownika w rozliczeniu delegacji
+- naliczenie amortyzacji
+- uzgodnienie rozrachunków 
+- potwierdzenie opłaty podatku</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="pl">zdarzenie gospodarcze, które można wyrazić w czasie i pieniądzu oraz potwierdzić dokumentem księgowym i zapisać w księgach rachunkowych</obo:IAO_0000115>
+        <rdfs:label xml:lang="pl">operacja gospodarcza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl015 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl015">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl002"/>
+        <obo:IAO_0000115>dokument inny finansowy zawierający informację o wyrażeniu zgody na odbycie przez pracownika podróży służbowej w określonym czasie i miejscu, będący podstawą do sporządzenia dokumentu księgowego rozliczenie delegacji</obo:IAO_0000115>
+        <rdfs:label xml:lang="pl">delegacja</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl016 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl016">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl002"/>
+        <obo:IAO_0000115>dokument inny finansowy zawierający informację o osobie, której zlecono świadczenie pracy oraz wynarodzeniu za tę pracę, będący podstawą do sporządzenia dokumentu księgowego lista płac</obo:IAO_0000115>
+        <rdfs:label xml:lang="pl">umowa o pracę</rdfs:label>
     </owl:Class>
     
 
@@ -210,7 +280,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisKsiegowy">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:comment xml:lang="pl">Zapis księgowy odzwierciedla zdarzenia gospodarcze wyrażone w pieniądzu. Odpowiednio (zgodnie z zasadami ksiągowości) udokumentowane.</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="pl">jednostka informacji , która ma być prawdziwym stwierdzeniem o przeprowadzonej transakcji wyrażonej w pieniądzu i odpowiednio udokumentowanej a uzyskiwanej za pomocą metody niezawodnej do generowania prawdziwych stwierdzeń</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -844,6 +914,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieBilansowym">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisKsiegowy"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWynikowym"/>
+        <obo:IAO_0000115 xml:lang="pl">jednostka informacji , która ma być prawdziwym stwierdzeniem o majątku jednostki i źródłach jej finansowania</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -869,6 +940,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisNaKoncieWynikowym">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisKsiegowy"/>
+        <obo:IAO_0000115 xml:lang="pl">jednostka informacji , która ma być prawdziwym stwierdzeniem o wynikach prowadzonej działalności jednostki (przychodach i kosztach)</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -991,5 +1063,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
 
