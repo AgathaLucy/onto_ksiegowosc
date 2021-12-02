@@ -1059,6 +1059,26 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#zapisZespolu4"/>
         <rdfs:comment xml:lang="pl">koszty rodzajowe</rdfs:comment>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#i001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#i001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kulicki/ontologies/2019/11/untitled-ontology-15#kl021"/>
+        <rdfs:label xml:lang="pl">filozofia</rdfs:label>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
